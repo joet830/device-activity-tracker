@@ -19,3 +19,17 @@ button:hover { background-color: #218838; }
 .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); }
 .modal-content { background-color: white; margin: 15% auto; padding: 20px; width: 90%; max-width: 400px; border-radius: 10px; }
 .close { float: right; font-size: 28px; cursor: pointer; }
+/* ... All your old code is up here ... */
+
+.close { float: right; font-size: 28px; cursor: pointer; }
+
+/* --- PASTE THE NEW ANIMATION CODE HERE --- */
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.device-item {
+    animation: fadeInUp 0.5s ease-out;
+}
+/* ... and the rest of the code ... */
