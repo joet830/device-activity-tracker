@@ -42,4 +42,3 @@ This is a Full-Stack Web Application built for the Invisam Developer Internship 
 
 ---
 
-**This is the most complete and accurate version for your submission.**
